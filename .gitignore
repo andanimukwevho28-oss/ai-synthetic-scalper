@@ -1,0 +1,44 @@
+﻿# OS / editor
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Secrets - never commit
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets.*
+credentials.*
+
+# Node
+node_modules/
+dist/
+build/
+.vite/
+.next/
+npm-debug.log*
+yarn-error.log*
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Logs and generated data
+*.log
+logs/
+feed.log
+data/raw_ticks/
+data/processed/
+
+# Large trained model artifacts
+models/
+*.onnx
